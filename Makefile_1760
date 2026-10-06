@@ -1,0 +1,13 @@
+CC = gcc
+CFLAGS = -Wall -Wextra -pthread
+
+all: server_1760 client_1760
+
+server_1760: server_1760.c
+	$(CC) $(CFLAGS) server_1760.c -o server_1760
+
+client_1760: client_1760.c
+	$(CC) $(CFLAGS) client_1760.c -o client_1760
+
+clean:
+	rm -f server_1760 client_1760 netmsg_IT23651760.log
