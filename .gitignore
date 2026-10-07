@@ -1,0 +1,6 @@
+server_1760
+client_1760
+*.o
+*.log
+*.zip
+storage/
